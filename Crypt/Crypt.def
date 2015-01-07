@@ -1,0 +1,33 @@
+LIBRARY	Crypt
+
+EXPORTS
+	InstallLibrary
+	Shutdown=?Shutdown@@YAX_N@Z
+	FindUOWindow
+	GetSharedAddress
+	GetPacketLength
+	IsDynLength
+	GetUOProcId
+	InitializeLibrary
+	GetCommMutex
+	TotalIn
+	TotalOut
+	CaptureScreen
+	WaitForWindow
+	SetDataPath
+	SetDeathMsg
+	CalibratePosition
+	IsCalibrated
+	GetPosition
+	BringToFront
+	DoFeatures
+	AllowBit
+	SetAllowDisconn
+	TranslateSetup
+	TranslateLogin
+	TranslateDo
+	OnAttach
+	SetServer
+	HandleNegotiate
+	GetUOVersion
+	
